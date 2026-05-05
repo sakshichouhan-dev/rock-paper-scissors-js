@@ -1,16 +1,20 @@
-Rock Paper Scissors 
+🎮 Rock Paper Scissors
+
 A simple game built using JavaScript where the user plays against the computer.
 
-Features
-Plays agianst computer
-Random computer choice
-Instant result
-Score tracking
+🚀 Features
 
-Tech Used
-HTML
-CSS
-JavaScript
+- Play against computer
+- Random computer choice
+- Instant result
+- Score tracking
 
-Author 
-sakshi
+🛠️ Tech Used
+
+- HTML
+- CSS
+- JavaScript
+
+📌 Author
+
+Sakshi
