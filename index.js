@@ -15,7 +15,7 @@ const gencompchoice = () =>{
 
 const drawGame = () =>{
     msg.innerText = "DRAW";
-     msg.style.backgroundcolor = "#081b31";
+     msg.style.backgroundcolor = "yellow";
 };
 const showWinner = (userwin) =>{
     if(userwin){
@@ -45,7 +45,7 @@ const playGame = (choiceId) =>{
             userwin = compchoice == "paper"? false : true;
         } else if(choiceId == "paper"){
             userwin = compchoice == "scissor"? false : true; 
-    }else {
+    }else(choiceId == "scissor") {
          userwin = compchoice == "rock"? false : true;
     }
     showWinner(userwin);
